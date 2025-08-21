@@ -1,0 +1,10 @@
+[03-Jun-2025 10:51:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbx5mbrweded2m`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php:31
+Stack trace:
+#0 /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php(31): PDO->query('DELETE FROM pos...')
+#1 {main}
+  thrown in /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php on line 31
+[03-Jun-2025 10:56:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbx5mbrweded2m`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php:27
+Stack trace:
+#0 /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php(27): PDO->query('DELETE FROM pos...')
+#1 {main}
+  thrown in /home/customer/www/rsoa115.rehanschool.us/public_html/blogger/post.php on line 27
